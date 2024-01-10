@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+        <div class="hero7"></div>
+        <div class="hero5">
+        </div>
+        <div class="hero6">
+        </div>
+        <div id="loader">
+            <div id="wrapperload">
+                <div class="elem">
+                    <img src="name.png" alt="">
+                </div>
+                <div class="elem">
+                    <h3>Developer</h3>
+                </div>  
+                <div class="elem">
+                    <h3>UI/UX Designer</h3>
+                </div>  
+                <div class="elem">
+                    <h3>Video Editor</h3>
+                </div>  
+                <div class="elem">
+                    <h3>loves to help brands.</h3>
+                </div>
+
+            </div>
+        </div>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img class="navitem" src="logo.png" alt="">
+                    <h3 class="navitem" id="h3" >Personal</h3>
+                </div>
+                
+                <ul>
+                    <li><a class="navitem" href="#">HOME</a></li>
+                    <li><a class="navitem"  href="#">PROJECTS</a></li>
+                    <li><a class="navitem" href="#">ABOUT</a></li>
+                    <li><a class="navitem" href="#">CONTECT</a></li>
+                </ul>
+                <div class="links">
+                    <a class="navitem" href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a class="navitem" href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="navitem" href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <div class="navitem" id="menu"><i class="fa-solid fa-bars"></i></div>
+                </div>
+            </nav>  
+            </div>
+                <div class="hero">
+                    <div class="hero2">                    
+                        <span class="topline">Hello</span>
+                        <h1>I'm <span class="multitext"></span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod eligendi rerum modi, voluptatibus vitae deleniti architecto aspernatur accusantium voluptate, esse aliquid rem. Distinctio tempore soluta magni maxime ad ab?</p>
+                        <div class="btn">
+                            <button class="btn2">Resume</button>
+                            <button class="btn2">Hire me</button>
+                        </div>
+                    </div> 
+                    <div class="hero1">          
+                        <div class="hero3">       
+                            <img src="hero.png" alt="" class="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>  
+        <script src="script.js"></script>
+        <script>
+            var typed = new Typed('.multitext', {
+                loop : true,
+              strings: ['Developer','Designer','Editor'],
+              typeSpeed: 150,
+              backspeed: 100,
+              backdelay: 1500
+            });
+          </script>
+    </body>
+</html>
