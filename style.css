@@ -297,17 +297,20 @@ button:hover{
     animation: hero1914 2s cubic-bezier(0.19, 1, 0.22, 1) 5s both;
     background-image: linear-gradient(to top, rgb(217 255 246) , rgb(239 255 250))
   }
-  .hero3{
+  /* .hero3{
     width: 400px;
     margin: 0% 27%;
     animation: hero3914 2s infinite alternate-reverse 5.5s both;
 
-  }
+  } */
   nav{
     margin: 20px 20px;
   }
-  .img{
+  .hero1 .img{
     height: 400px;
+    animation: img914 2s infinite alternate-reverse 5.5s both;
+    margin: 3% 28%;
+
   }
   #menu{
     display: block;
@@ -317,12 +320,12 @@ button:hover{
   }
   
 }
-@keyframes hero3914 {
+@keyframes img914 {
   from {
-    margin-top: 33%;
+    margin-top: 36%;
   }
   to {
-    margin-top: 29%;
+    margin-top: 40%;
 
   }
 }
@@ -351,6 +354,39 @@ button:hover{
   }
   #h3{
     display: none;
+  }
+  .hero1 .img{
+    height: 350px;
+    animation: img500 2s infinite alternate-reverse 5.5s both;
+    margin: 0% 5% 0% 5%;
+
+  }
+}
+@keyframes img500 {
+  from {
+    margin-top: 53%;
+  }
+  to {
+    margin-top: 60%;
+
+  }
+}
+@media (max-width: 376px) {
+ 
+  .hero1 .img{
+    height: 350px;
+    animation: img376 2s infinite alternate-reverse 5.5s both;
+    margin: 0% 3% 0% 3%;
+
+  }
+}
+@keyframes img376 {
+  from {
+    margin-top: 95%;
+  }
+  to {
+    margin-top: 100%;
+
   }
 }
 .hero5{
@@ -423,7 +459,7 @@ button:hover{
   }
 } 
 
-.hero3{
+/* .hero3{
   background-image: linear-gradient(to right, rgb(81, 195, 180) , rgb(245, 253, 251));  
   width: 500px;
   border-radius: 50%;
@@ -431,18 +467,22 @@ button:hover{
   margin: 20%;
   animation: hero3 2s infinite alternate-reverse 5.5s both;
   box-shadow: rgb(0 5 8 / 7%) -1px 20px 20px 1px;
-}
+} */
 .img{
   height: 500px;
   border-radius: 50%;
   overflow: revert-layer;
+  margin: 30% 3% 0% 17%;
+  animation: img 2s infinite alternate-reverse 5.5s both;
+  box-shadow: rgb(0 5 8 / 7%) -1px 20px 20px 1px;
+
 }
-@keyframes hero3 {
+@keyframes img {
   from {
-    margin-top: 23%;
+    margin-top: 20%;
   }
   to {
-    margin-top: 19%;
+    margin-top: 15%;
   }
 }
 .hero7{
